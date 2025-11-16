@@ -1,0 +1,53 @@
+I am developing a minecraft 修仙mod, we need to have a basic cultivation realm system. Here are the realms I would like to implement:
+
+ 境界晋升需求：
+ 消耗物品：
+ 击杀怪物：
+ 特殊事件：
+
+ 凡人境界：
+  村子箱子有概率刷新物品：宗门邀请函，功法残卷
+  我的世界到达10级开启修炼功法。
+  可以参加入宗选拔，或者自己寻找补全功法。
+  开始修炼功法，自动进入练气。
+  
+
+ 
+
+小境界：炼气15级，其他皆为初期，中期，后期，
+下境界：
+
+    炼气:
+     必须消耗物品：筑基丹
+     提高成功率物品：筑基灵液 / 辅助灵果
+     特殊事件：需调和体内灵力，使其凝聚成“法力真元”。
+    筑基：
+     必须消耗物品：结丹丹 / 金丹丹
+      提高成功率物品：紫灵丹 / 金源丹 / 三彩灵果等
+      特殊事件：需将灵力高度压缩凝聚成“金丹”，类似“量→质”的转变。
+    结丹
+     必须消耗物品：元婴丹/化婴丹
+    提高成功率物品：养婴丹、魂凝丹，灵髓、心魔丹药
+    特殊事件：1.需要“婴变雷劫前的心魔试炼”，2.需将金丹裂解为“元婴”，类似“卵化为婴”。
+    元婴
+      必须消耗物品：化神丹/渡劫丹
+    提高成功率物品：阴阳合欢花、三光蕴元液, 玄阴灵物（增强神魂）, 天机丹（辅助应对心魔）
+    特殊事件：意识和元婴需要承受强烈“化神心魔”与天地之力冲击。
+    化神
+  
+中境界：
+
+    炼虚
+    合体
+    大乘
+
+上境界：
+
+    真仙
+    金仙
+    太乙
+    大罗
+    道祖 
+
+Each realm represents a stage of cultivation, with 下境界 being the initial stages, 中境界 representing intermediate stages, and 上境界 being the highest levels of cultivation. Players will progress through these realms as they cultivate their character in the mod.
+the levelling requirement for each realm are progressed to be more difficult as the player advances, requiring more resources and time to reach the next realm.

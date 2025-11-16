@@ -1,0 +1,15 @@
+功法depends on 灵根 type and cultivation realm. Different 灵根 types will have different affinities for certain 功法, affecting the effectiveness and efficiency of cultivation. 
+As the player progresses through the cultivation realms, they will unlock new 功法 that are more powerful and complex. there would be three type of 功法：单灵根功法，属性功法，无属性功法。
+where 单灵根功法 can only be learned by players with a specific 灵根 type, 属性功法 are功法 that have elemental attributes that correspond to the player's 灵根, 
+and 无属性功法 are neutral功法 that can be learned by any 灵根 type but may be less effective than those tailored to specific 灵根 types.
+
+功法获益效果：
+- 获取灵根xp
+- 获得特殊技能
+- 获得特殊状态
+- 增加属性点
+
+功法招式：
+  单一招式：需找齐所有残卷，炼制功法。
+  正常招式：每一个残卷都能炼制出一个招式，集齐所有残卷能炼制出完整功法。以及额外获得特殊招式或效果。
+  

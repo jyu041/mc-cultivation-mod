@@ -1,0 +1,76 @@
+I am developing a minecraft 修仙mod, currently I have just downloaded the basic template from fabric. Since my mod is about Chinese fantasy cultivation, I need basic cultivation realms and 灵根, and methods to modify the realm of a player or their 灵根. I would like to start with the following 灵根 system:
+
+When player enters the game, they are prompted with a ui screen with title "灵根洗练“, in the main part there will be a placeholder text saying “小友，请洗练你的灵根”，below this main text there will be a dice button, when clicked the placeholder text will randomly shuffle and be set as one of the following as the main type of 灵根:
+- 天灵根
+- 异灵根
+- 地灵根
+- 真灵根
+- 伪灵根
+- 杂灵根
+
+the shuffle will also display the 灵根 of the player just after the type from above:
+天灵跟：
+金灵根，木灵根，水灵根，火灵根，土灵根
+
+异灵根：
+锋灵根（金+木）
+冰灵根（金+水）
+雷灵根（金+火）
+钢灵根（金+土）
+毒灵根（木+水）
+炎灵根（木+火）
+风灵根（木+土）
+雾灵根（水+火）
+冥灵根（水+土）
+烬灵根（火+土）
+
+地灵根（双灵根）：
+金木双灵根
+金水双灵根
+金火双灵根
+金土双灵根
+木水双灵根
+木火双灵根
+木土双灵根
+水火双灵根
+水土双灵根
+火土双灵根
+
+真灵根（三灵根）：
+金木水三灵根
+金木火三灵根
+金木土三灵根
+金水火三灵根
+金水土三灵根
+金火土三灵根
+木水火三灵根
+木水土三灵根
+木火土三灵根
+水火土三灵根
+
+伪灵根（四灵根）：
+金木水火四灵根 (缺土)
+金木水土四灵根 (缺火)
+金木火土四灵根 (缺水)
+金水火土四灵根 (缺木)
+木水火土四灵根 (缺金)
+
+杂灵根（五灵根）：
+金木水火土五灵根
+
+So on the player's screen, before clicking the dice button, they will see something like:
+title: 灵根洗练
+main text: 小友，请洗练你的灵根
+dice button: [🎲]
+
+After clicking the dice button, they might see:
+title: 灵根洗练
+main text: 天灵根：水灵根
+dice button: [🎲]
+confirm button: [确认选择]
+
+To implement the 灵根洗练 UI screen in Minecraft 修仙mod using Fabric, we will need to create a custom screen that displays the title, main text, and a dice button. When the button is clicked, it will randomly select a 灵根 type and display it. The user can click the dice button as many times as they want to reshuffle their 灵根. After they are satisfied with their selection, they can click the confirm button to finalize their choice.
+
+every 灵根 reqires individual xp to level up.
+when the player has more than one 灵根, there would be a threashold system, where the xp differnce between the highest level 灵根 and the lowest level 灵根 cannot exceed a certain amount, if it does, the player will die from 灵根反噬.
+
